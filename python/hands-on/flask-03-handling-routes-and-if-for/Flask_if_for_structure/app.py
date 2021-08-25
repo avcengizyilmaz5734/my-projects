@@ -6,8 +6,8 @@ app = Flask(__name__)
 # and assign to the route of ('/')
 @app.route("/")
 def head():
-first = "This is my first conditions experience"
+    first = "This is my first conditions experience"
     return render_template('index.html', message = first)
-    if __name__ == '__main__':
-        app.run(debug=True)
+if __name__ == '__main__':
+    app.run(debug=True)
     
