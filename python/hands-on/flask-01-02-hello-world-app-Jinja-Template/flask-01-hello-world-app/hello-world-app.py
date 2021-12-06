@@ -4,11 +4,11 @@ app = Flask(__name__)
 
 @app.route('/')
 def head():
-    return "I like Flask!"
+    return "Hello Cengiz"
 
 @app.route('/second')
 def second():
-    return "This is the second page"
+    return "Bize her yer Sinop"
 
 @app.route('/third/subthird')
 def third():
@@ -20,4 +20,4 @@ def forth(id):
 
 if __name__=="__main__":
     app.run(host='0.0.0.0', port=80)
-    # app.run(debug=True)
+   # app.run(debug=True)

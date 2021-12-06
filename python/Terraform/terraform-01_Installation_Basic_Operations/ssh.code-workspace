@@ -1,0 +1,23 @@
+{
+	"folders": [
+		{
+			"path": "..\\..\\..\\..\\clarusway-aws-8-21\\python\\hands-on\\flask-05-Handling-SQL-with-Flask-Web-Application\\templates"
+		},
+		{
+			"path": "..\\..\\.."
+		},
+		{
+			"path": "..\\..\\..\\..\\clarusway-aws-8-21\\aws\\projects\\Project-001-Roman-Numerals-Converter"
+		},
+		{
+			"path": "..\\..\\..\\aws\\projects\\Project-101-kittens-carousel-static-website-ec2"
+		},
+		{
+			"path": "..\\..\\hands-on\\flask-03-handling-routes-and-if-for\\flask-03-handling-routes"
+		},
+		{
+			"path": "..\\..\\..\\..\\clarusway-devops-8-21\\clarusway-devops-8-21\\hands-on\\Maven\\maven-01-using-maven-as-a-build-tool"
+		}
+	],
+	"settings": {}
+}
