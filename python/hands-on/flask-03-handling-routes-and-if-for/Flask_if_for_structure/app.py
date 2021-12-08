@@ -5,7 +5,7 @@ app = Flask (__name__)
 @app.route('/')
 def head():
     first="This is my first condition experience"
-    return render_template("index.html",  message = False )
+    return render_template("index.html",  message = first )
 
 
 @app.route('/serdar')
@@ -15,5 +15,6 @@ def header():
 
 
 if __name__=="__main__":
-    # app.run(debug=True)
-    app.run(host='0.0.0.0', port=80)
+    app.run(debug=True)
+    #app.run(host='0.0.0.0', port=80)
+    
