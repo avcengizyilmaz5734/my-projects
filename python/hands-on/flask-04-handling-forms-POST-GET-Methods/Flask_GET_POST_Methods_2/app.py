@@ -27,9 +27,9 @@ def calculate():
     if request.method == "POST":
         num1 = request.form["number1"]
         num2 = request.form["number2"]
-        return render_template("result.html", var1 = num1, var2 = num2, result = lcm(int(num1),int(num2)), developer_name = "Serdar")
+        return render_template("result.html", var1 = num1, var2 = num2, result = lcm(int(num1),int(num2)), developer_name = "Cengiz")
     else:
-        return render_template("result.html", developer_name="Serdar")
+        return render_template("result.html", developer_name="Cengiz")
 
 
 # Add a statement to run the Flask application which can be debugged.
