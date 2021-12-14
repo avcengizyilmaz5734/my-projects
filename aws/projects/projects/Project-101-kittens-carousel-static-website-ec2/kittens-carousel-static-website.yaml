@@ -21,12 +21,12 @@ Resources:
     Properties:
       ImageId: ami-0ab4d1e9cf9a1215a
       InstanceType: t2.micro
-      KeyName: linux
+      KeyName: serdar
       SecurityGroupIds:
         - !Ref WebServerSecurityGroup
       Tags:
         - Key: Name
-          Value:  !Sub Web Server of ${AWS::StackName} 
+          Value:  !Sub Web Server of ${AWS::StackName}
       UserData: 
         Fn::Base64:
           !Sub |
